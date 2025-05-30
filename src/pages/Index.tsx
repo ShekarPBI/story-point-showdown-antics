@@ -5,7 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import * as Tone from 'tone';
-import { Trophy, Target, Zap, Star, Sparkles } from 'lucide-react';
+import { Trophy, Target, Zap, Star, Sparkles, Clock, AlertTriangle } from 'lucide-react';
 
 interface Story {
   id: number;
@@ -430,9 +430,16 @@ const Index = () => {
             <Progress value={progress} className="h-3 bg-white/50" />
           </div>
           
-          <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-white/20">
-            <Target className="w-5 h-5 text-purple-600" />
-            <span className="text-sm font-medium text-gray-700">Fibonacci Scale: 1, 2, 3, 5, 8, 13, 20</span>
+          <div className="space-y-3">
+            <div className="inline-flex items-center gap-2 bg-white/70 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-white/20">
+              <Target className="w-5 h-5 text-purple-600" />
+              <span className="text-sm font-medium text-gray-700">Fibonacci Scale: 1, 2, 3, 5, 8, 13, 20</span>
+            </div>
+            
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-100 to-orange-100 backdrop-blur-sm rounded-full px-6 py-3 shadow-lg border border-amber-200">
+              <AlertTriangle className="w-5 h-5 text-amber-600" />
+              <span className="text-sm font-semibold text-amber-800">Remember: Story points reflect relative effort, complexity, risk, and uncertainty, not hours!</span>
+            </div>
           </div>
         </div>
 
