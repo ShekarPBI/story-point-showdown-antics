@@ -1,18 +1,6 @@
-# Welcome to your Lovable project
+# Welcome to your Storypoints Showdown project
 
 ## Project info
-
-**URL**: https://lovable.dev/projects/b1146465-4da1-427d-bc49-b19b1bb8a20e
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/b1146465-4da1-427d-bc49-b19b1bb8a20e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
