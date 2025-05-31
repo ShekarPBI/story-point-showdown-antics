@@ -1,4 +1,4 @@
-# Welcome to your Storypoints Showdown project
+# Welcome to your Storypoints Showdown project:
 
 ## Project info
 
